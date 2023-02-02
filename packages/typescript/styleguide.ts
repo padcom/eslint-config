@@ -35,8 +35,8 @@ topLevelFunction()
  * Lint the code.
  * This function is so long to show you what the longest function looks like.
  *
- * @param {string} code code to lint
- * @returns {Promise<ESLint.LintResult[]>} linting results
+ * @param code code to lint
+ * @returns linting results
  */
 async function lint(code: string) {
   // Single-line objects can grow up to 130th column.
@@ -202,7 +202,7 @@ class Person {
   /**
    * Do document return values, please
    *
-   * @returns {string}
+   * @returns
    */
   get name() {
     return `${this.firstName || ''} ${this.lastName || ''}`.trim()
@@ -211,7 +211,7 @@ class Person {
   /**
    * Please do document parameters!
    *
-   * @param {string} value and do tell everyone what those parameters mean
+   * @param value and do tell everyone what those parameters mean
    */
   set name(value) {
     // When throwing use instances of Error. And the force will be with you, always.

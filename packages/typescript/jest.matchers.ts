@@ -1,8 +1,8 @@
 import { ESLint } from 'eslint'
 
 /**
- * @param {string[]} lines
- * @returns {string[]} lines without empty leading lines
+ * @param lines
+ * @returns lines without empty leading lines
  */
 function removeLeadingEmptyLines(lines: string[]) {
   const result = [...lines]
@@ -12,8 +12,8 @@ function removeLeadingEmptyLines(lines: string[]) {
 }
 
 /**
- * @param {string} line
- * @returns {number} number of leading spaces in the given line
+ * @param line
+ * @returns number of leading spaces in the given line
  */
 function countLeadingSpaces(line: string) {
   for (let i = 0; i < line.length; i++) if (line[i] !== ' ') return i
@@ -25,8 +25,8 @@ function countLeadingSpaces(line: string) {
  * Prepare code removing any leading spaces resulting from creating the code
  * inside of a multiline string
  *
- * @param {string} code code to prepare
- * @returns {string} prepared code
+ * @param code code to prepare
+ * @returns prepared code
  */
 function prepare(code: string) {
   const lines = removeLeadingEmptyLines(code.split('\n'))
@@ -38,7 +38,7 @@ function prepare(code: string) {
 /**
  * @param code code to validate
  * @param config path to configuration file
- * @returns linting results
+ * @returns linting
  */
 function lint(code: string, config = './index.js') {
   const eslint = new ESLint({

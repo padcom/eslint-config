@@ -1,8 +1,8 @@
 /**
  * Defines a test case for correct code formatting
  *
- * @param {string} name name of the rule to validate
- * @param {jest.ProvidesCallback} code code to examine
+ * @param name name of the rule to validate
+ * @param code code to examine
  */
 function correct(name: string, code: jest.ProvidesCallback) {
   it(`[correct] ${name}`, code)
@@ -15,8 +15,8 @@ correct.skip = function(name: string, code: jest.ProvidesCallback) {
 /**
  * Defines a test case for incorrect code formatting
  *
- * @param {string} name name of the rule to validate
- * @param {Function} code code to examine
+ * @param name name of the rule to validate
+ * @param code code to examine
  */
 function incorrect(name: string, code: jest.ProvidesCallback) {
   it(`[incorrect] ${name}`, code)

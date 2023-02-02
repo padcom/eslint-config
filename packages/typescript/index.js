@@ -21,6 +21,7 @@ module.exports = {
   rules: {
     'jsdoc/require-returns-type': 'off',
     'jsdoc/require-param-type': 'off',
+    'jsdoc/no-types': 'error',
     '@typescript-eslint/no-explicit-any': 'off',
   },
 }
