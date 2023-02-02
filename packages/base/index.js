@@ -32,7 +32,7 @@ module.exports = {
     'complexity': ['error', 4],
     'computed-property-spacing': 'error',
     'consistent-return': 'error',
-    'curly': ['error', 'multi-or-nest', 'consistent'],
+    'curly': ['error', 'multi-line'],
     'dot-location': ['error', 'property'],
     'dot-notation': 'error',
     'eol-last': 'error',

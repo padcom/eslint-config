@@ -109,8 +109,9 @@ function forLoops() {
   for (let i = 0; i < 5; i++) console.log(i)
 
   // A for loop may be single-line or dual-line if just one statement is executed as part of it.
-  for (let i = 0; i < 5; i++)
+  for (let i = 0; i < 5; i++) {
     console.log('5')
+  }
 
   // If you have some declarations that pertain to the loop you can glue them to the top,
   // but you don't have to. Do whatever makes sense at any given spot.
@@ -136,16 +137,18 @@ function whileLoops() {
   while (Math.random() > 0.5) console.log('while loop')
 
   // A while loop may be single-line or dual-line if just one statement is executed as part of it.
-  while (Math.random() > 0.5)
+  while (Math.random() > 0.5) {
     console.log('while loop')
+  }
 
   // If you have some declarations that pertain to the loop you can glue them to the top,
   // but you don't have to. Do whatever makes sense at any given spot.
   // Use curly braces when you need them, not because they are available. Do whatever makes sense.
   let i = 0
-  while (Math.random() > 0.5)
+  while (Math.random() > 0.5) {
     // But you'll have to explain yourself at least with a comment.
     console.log('while loop', i++)
+  }
 }
 
 whileLoops()
@@ -317,10 +320,11 @@ function conditions() {
 
   // If that helps express whatever the statement should read
   // you can put everything in separate lines
-  if (isTrue)
+  if (isTrue) {
     console.log('condition is true')
-  else
+  } else {
     console.log('a !== b')
+  }
 }
 
 conditions()

@@ -93,8 +93,9 @@ function forLoops() {
   for (let i = 0; i < 5; i++) console.log(i)
 
   // A for loop may be single-line or dual-line if just one statement is executed as part of it.
-  for (let i = 0; i < 5; i++)
+  for (let i = 0; i < 5; i++) {
     console.log('5')
+  }
 
   // If you have some declarations that pertain to the loop you can glue them to the top,
   // but you don't have to. Do whatever makes sense at any given spot.
@@ -120,8 +121,9 @@ function whileLoops() {
   while (Math.random() > 0.5) console.log('while loop')
 
   // A while loop may be single-line or dual-line if just one statement is executed as part of it.
-  while (Math.random() > 0.5)
+  while (Math.random() > 0.5) {
     console.log('while loop')
+  }
 
   // If you have some declarations that pertain to the loop you can glue them to the top,
   // but you don't have to. Do whatever makes sense at any given spot.
@@ -275,3 +277,35 @@ function arrowConstants() {
 
 arrowConstants()
 
+/**
+ * This is here to show you conditions (if-statements)
+ * The "complexity" rule is disabled here because what follows is a string of if-statements
+ */
+// eslint-disable-next-line complexity
+function conditions() {
+  console.log('Conditions')
+
+  const a = Math.random(), b = Math.random()
+  const isTrue = a !== b
+
+  // You can, if you want, write english-sounding sentences in JavaScript
+  // Those are usually read better and are easier to understand
+  if (isTrue) console.log('condition is true')
+
+  // You can even include the "else" part and it still kinda reads like English
+  if (isTrue) console.log('condition is true'); else console.log('a !== b')
+
+  // If that helps understand the code better you can put the "else" in the next line too
+  if (isTrue) console.log('condition is true')
+  else console.log('a !== b')
+
+  // If that helps express whatever the statement should read
+  // you can put everything in separate lines
+  if (isTrue) {
+    console.log('condition is true')
+  } else {
+    console.log('a !== b')
+  }
+}
+
+conditions()
