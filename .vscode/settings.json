@@ -1,0 +1,14 @@
+{
+  "cSpell.words": [
+    "grrr",
+    "iife",
+    "lcov",
+    "linebreak",
+    "nonblock",
+    "nonconstructor",
+    "unmocked"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+}

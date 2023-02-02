@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config",
+  "workspaces": [
+    "packages/base",
+    "packages/typescript"
+  ],
+  "scripts": {
+    "test": "npm test --if-exists --workspaces",
+    "publish:base": "npm --workspace=packages/base publish",
+    "publish:typescript": "npm --workspace=packages/typescript publish"
+  }
+}

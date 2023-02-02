@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "ghmcadams.lintlens",
+    "orta.vscode-jest"
+  ]
+}
