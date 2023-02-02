@@ -1,6 +1,6 @@
 {
   "name": "@padcom/eslint-config-base",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "My preferred code style. Might work for you, might not...",
   "author": "Matthias Hryniszak <padcom@gmail.com>",
   "license": "MIT",
@@ -10,7 +10,7 @@
   ],
   "repository" : {
     "type" : "git",
-    "url" : "github:padcom/eslint-config-base"
+    "url" : "github:padcom/eslint-config"
   },
   "main": "index.js",
   "scripts": {
