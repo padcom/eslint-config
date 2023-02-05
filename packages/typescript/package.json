@@ -2,12 +2,12 @@
   "name": "@padcom/eslint-config-typescript",
   "version": "0.0.5",
   "description": "My preferred code style. Might work for you, might not...",
+  "author": "Matthias Hryniszak <padcom@gmail.com>",
+  "license": "MIT",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "author": "Matthias Hryniszak <padcom@gmail.com>",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "github:padcom/eslint-config"
@@ -17,7 +17,6 @@
     "test": "jest",
     "test:watch": "npm run test -- --watchAll",
     "lint": "eslint -c .eslintrc.js",
-    "lint:watch": "npm run lint -- --watch",
     "prepublishOnly": "npm install && npm test"
   },
   "peerDependencies": {

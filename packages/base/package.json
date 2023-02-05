@@ -8,16 +8,15 @@
     "eslint",
     "eslintconfig"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "github:padcom/eslint-config"
+  "repository": {
+    "type": "git",
+    "url": "github:padcom/eslint-config"
   },
   "main": "index.js",
   "scripts": {
     "test": "node --experimental-vm-modules ../../node_modules/.bin/jest",
     "test:watch": "npm run test -- --watchAll",
-    "lint": "eslint -c index.js index.js jest.*.[m]js tests/**.[m]js",
-    "lint:watch": "npm run lint -- --watch",
+    "lint": "eslint -c .eslintrc.js",
     "prepublishOnly": "npm install && npm test"
   },
   "peerDependencies": {
