@@ -23,5 +23,6 @@ module.exports = {
     'jsdoc/require-param-type': 'off',
     'jsdoc/no-types': 'error',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/type-annotation-spacing': 'error',
   },
 }
