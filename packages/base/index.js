@@ -149,6 +149,7 @@ module.exports = {
       { blankLine: 'always', prev: '*', next: ['return', 'while', 'if', 'for', 'block-like'] },
       { blankLine: 'any', prev: ['const', 'let'], next: ['while', 'if', 'for', 'block-like'] },
       { blankLine: 'always', prev: '*', next: 'class' },
+      { blankLine: 'any', prev: 'import', next: 'import' },
     ],
     'prefer-arrow-callback': 'error',
     'prefer-const': 'error',

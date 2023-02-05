@@ -18,14 +18,12 @@ module.exports = {
       script: { lang: 'ts' },
       style: { lang: 'postcss' },
     }],
-    'vue/block-tag-newline': ['error', {
-      singleline: 'never',
-      multiline: 'always',
-      maxEmptyLines: 0,
-    }],
+    'vue/block-tag-newline': 'off',
     'vue/component-tags-order': ['error', {
       order: ['template', 'script', 'style'],
     }],
+    'vue/first-attribute-linebreak': 'off',
+    'vue/html-closing-bracket-newline': 'off',
     'vue/html-indent': ['error', 2, {
       alignAttributesVertically: false,
     }],
@@ -40,6 +38,7 @@ module.exports = {
     }],
     // TODO: Rain check once the rule understands sub-elements modification
     'vue/no-mutating-props': 'off',
+    'vue/no-reserved-component-names': 'off',
     'vue/no-setup-props-destructure': 'error',
     'vue/no-static-inline-styles': ['error', {
       allowBinding: true,
@@ -48,5 +47,6 @@ module.exports = {
       ignoreIncludesComment: true,
       ignoreStringEscape: true,
     }],
+    'vue/singleline-html-element-content-newline': 'off',
   },
 }
