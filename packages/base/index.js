@@ -156,7 +156,7 @@ module.exports = {
       { blankLine: 'always', prev: 'import', next: '*' },
       { blankLine: 'always', prev: '*', next: 'export' },
       { blankLine: 'always', prev: '*', next: ['return', 'while', 'if', 'for', 'block-like'] },
-      { blankLine: 'any', prev: ['const', 'let'], next: ['while', 'if', 'for', 'block-like'] },
+      { blankLine: 'any', prev: ['const', 'let', 'if'], next: ['while', 'if', 'for', 'block-like'] },
       { blankLine: 'always', prev: '*', next: 'class' },
       { blankLine: 'any', prev: 'import', next: 'import' },
     ],

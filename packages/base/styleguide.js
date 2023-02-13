@@ -309,3 +309,22 @@ function conditions() {
 }
 
 conditions()
+
+function conditions2() {
+  console.log('Conditions - part 2')
+
+  let a = 1
+  let b = 2
+
+  if (a > b) return
+
+  a = 2
+  b = 1
+
+  if (b > a) return
+  if (a !== b) return
+
+  console.log(a, b)
+}
+
+conditions2()
