@@ -1,6 +1,6 @@
 {
   "name": "@padcom/eslint-config-vue",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "My preferred code style. Might work for you, might not...",
   "author": "Matthias Hryniszak <padcom@gmail.com>",
   "license": "MIT",
@@ -20,14 +20,16 @@
     "prepublishOnly": "npm install && npm test"
   },
   "peerDependencies": {
-    "eslint": "^8.33.0"
+    "eslint": "^8.42.0"
+  },
+  "dependencies": {
+    "@padcom/eslint-config-typescript": "^0.2.0",
+    "eslint-plugin-vue": "^9.14.1"
   },
   "devDependencies": {
-    "@padcom/eslint-config-typescript": "^0.2.0",
     "@types/eslint": "^8.4.10",
     "@types/jest": "^29.4.0",
     "eslint-plugin-jest": "^27.2.1",
-    "eslint-plugin-vue": "^9.9.0",
     "jest": "^29.4.1",
     "jest-extended": "^3.2.3",
     "ts-jest": "^29.0.5",
