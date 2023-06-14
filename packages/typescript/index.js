@@ -31,5 +31,7 @@ module.exports = {
     } ],
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/type-annotation-spacing': 'error',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'error',
   },
 }
