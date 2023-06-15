@@ -63,7 +63,8 @@ module.exports = {
     'key-spacing': 'error',
     'keyword-spacing': 'error',
     'lines-between-class-members': ['error', 'always', { 'exceptAfterSingleLine': true }],
-    'linebreak-style': ['error', 'unix'],
+    // TODO: Rain check
+    // 'linebreak-style': ['error', 'unix'],
     // TODO: Rain check
     'line-comment-position': 'off',
     // TODO: Rain check
