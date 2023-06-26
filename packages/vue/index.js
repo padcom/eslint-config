@@ -36,8 +36,9 @@ module.exports = {
     'vue/no-multi-spaces': ['error', {
       ignoreProperties: true,
     }],
-    // TODO: Rain check once the rule understands sub-elements modification
-    'vue/no-mutating-props': 'off',
+    'vue/no-mutating-props': ['error', {
+      shallowOnly: true
+    }],
     'vue/no-reserved-component-names': 'off',
     'vue/no-setup-props-destructure': 'error',
     'vue/no-static-inline-styles': ['error', {
