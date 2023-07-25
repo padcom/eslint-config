@@ -1,6 +1,6 @@
 {
   "name": "@padcom/eslint-config-base",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "My preferred code style. Might work for you, might not...",
   "author": "Matthias Hryniszak <padcom@gmail.com>",
   "license": "MIT",
@@ -19,12 +19,9 @@
     "lint": "eslint -c .eslintrc.js",
     "prepublishOnly": "npm install && npm test"
   },
-  "peerDependencies": {
-    "eslint": "^8.33.0"
-  },
   "dependencies": {
+    "eslint": "^8.33.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-jsdoc": "^39.7.5",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-regexp": "^1.12.0"
   },

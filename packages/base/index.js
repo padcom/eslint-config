@@ -4,10 +4,11 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'jsdoc',
     'promise',
     'regexp',
     'eslint-comments',
+    // Disabled because it's dependency collides with Node 20.x
+    // 'jsdoc',
   ],
   extends: [
     'eslint:recommended',
@@ -202,6 +203,7 @@ module.exports = {
     'yoda': 'error',
 
     // JSDoc
+    /*
     'jsdoc/check-alignment': 'error',
     // TODO: Rain check
     'jsdoc/check-examples': 'off',
@@ -241,6 +243,7 @@ module.exports = {
     'jsdoc/tag-lines': 'error',
     // TODO: Rain check
     'jsdoc/valid-types': 'error',
+    */
 
     // eslint-plugin-promise
     'promise/always-return': 'off',

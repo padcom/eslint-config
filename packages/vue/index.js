@@ -37,7 +37,7 @@ module.exports = {
       ignoreProperties: true,
     }],
     'vue/no-mutating-props': ['error', {
-      shallowOnly: true
+      shallowOnly: true,
     }],
     'vue/no-reserved-component-names': 'off',
     'vue/no-setup-props-destructure': 'error',
