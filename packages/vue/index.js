@@ -49,5 +49,6 @@ module.exports = {
       ignoreStringEscape: true,
     }],
     'vue/singleline-html-element-content-newline': 'off',
+    'vue/padding-line-between-blocks': 'error',
   },
 }
