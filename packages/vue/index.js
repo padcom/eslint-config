@@ -27,6 +27,7 @@ module.exports = {
     'vue/html-indent': ['error', 2, {
       alignAttributesVertically: false,
     }],
+    'vue/html-self-closing': 'off',
     'vue/match-component-file-name': 'error',
     'vue/max-attributes-per-line': 'off',
     'vue/multi-word-component-names': 'off',
