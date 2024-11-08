@@ -7,6 +7,7 @@ module.exports = {
     'promise',
     'regexp',
     'eslint-comments',
+    '@stylistic/js',
     // Disabled because it's dependency collides with Node 20.x
     // 'jsdoc',
   ],
