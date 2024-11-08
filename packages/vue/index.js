@@ -19,8 +19,8 @@ module.exports = {
       style: { lang: 'postcss' },
     }],
     'vue/block-tag-newline': 'off',
-    'vue/component-tags-order': ['error', {
-      order: ['template', 'script', 'style'],
+    "vue/block-order": ['error', {
+      "order": ['template', 'script', "style" ],
     }],
     'vue/first-attribute-linebreak': 'off',
     'vue/html-closing-bracket-newline': 'off',
@@ -41,7 +41,7 @@ module.exports = {
       shallowOnly: true,
     }],
     'vue/no-reserved-component-names': 'off',
-    'vue/no-setup-props-destructure': 'error',
+    'vue/no-setup-props-reactivity-loss': 'error',
     'vue/no-static-inline-styles': ['error', {
       allowBinding: true,
     }],
