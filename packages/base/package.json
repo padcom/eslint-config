@@ -1,6 +1,6 @@
 {
   "name": "@padcom/eslint-config-base",
-  "version": "0.10.1",
+  "version": "0.11.0",
   "description": "My preferred code style. Might work for you, might not...",
   "author": "Matthias Hryniszak <padcom@gmail.com>",
   "license": "MIT",
