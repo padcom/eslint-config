@@ -19,8 +19,8 @@ module.exports = {
       style: { lang: 'postcss' },
     }],
     'vue/block-tag-newline': 'off',
-    "vue/block-order": ['error', {
-      "order": ['template', 'script', "style" ],
+    'vue/block-order': ['error', {
+      'order': ['template', 'script', 'style'],
     }],
     'vue/first-attribute-linebreak': 'off',
     'vue/html-closing-bracket-newline': 'off',
