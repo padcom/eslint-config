@@ -1,0 +1,35 @@
+{
+  "name": "@padcom/eslint-config-typescript",
+  "version": "0.20.0-alpha",
+  "description": "My preferred code style for TypeScript. Might work for you, might not...",
+  "author": "Matthias Hryniszak <padcom@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github:padcom/eslint-config"
+  },
+  "exports": "./index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint",
+    "prepublishOnly": "npm install && npm test && npm run lint"
+  },
+  "peerDependencies": {
+    "eslint": "^9"
+  },
+  "dependencies": {
+    "typescript-eslint": "^8.14.0"
+  },
+  "devDependencies": {
+    "@types/eslint__js": "^8.42.3",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}

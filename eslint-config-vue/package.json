@@ -1,0 +1,37 @@
+{
+  "name": "@padcom/eslint-config-vue",
+  "version": "0.20.0-alpha",
+  "description": "My preferred code style for Vue.js. Might work for you, might not...",
+  "author": "Matthias Hryniszak <padcom@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "vue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github:padcom/eslint-config"
+  },
+  "exports": "./index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint -c eslint.config.mjs",
+    "prepublishOnly": "npm install && npm test && npm run lint"
+  },
+  "peerDependencies": {
+    "eslint": "^9"
+  },
+  "dependencies": {
+    "@padcom/eslint-config-javascript": "*",
+    "@padcom/eslint-config-typescript": "*",
+    "@vue/eslint-config-typescript": "^14.1.3",
+    "eslint-plugin-vue": "^9.31.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.4",
+    "vue": "^3.5.12"
+  }
+}

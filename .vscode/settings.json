@@ -1,19 +1,13 @@
 {
+  "eslint.useFlatConfig": true,
   "cSpell.words": [
     "grrr",
     "iife",
-    "lcov",
+    "jsdocs",
     "linebreak",
     "nonblock",
     "nonconstructor",
-    "unmocked"
-  ],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "never"
-  },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "vue"
+    "TSES",
+    "yoda"
   ],
 }

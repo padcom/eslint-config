@@ -1,0 +1,37 @@
+{
+  "name": "@padcom/eslint-config-javascript",
+  "version": "0.20.0-alpha",
+  "description": "My preferred code style for JavaScript. Might work for you, might not...",
+  "author": "Matthias Hryniszak <padcom@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github:padcom/eslint-config"
+  },
+  "exports": "./index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint",
+    "prepublishOnly": "npm install && npm test && npm run lint"
+  },
+  "peerDependencies": {
+    "eslint": "^9"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.14.0",
+    "@stylistic/eslint-plugin": "^2.10.1",
+    "eslint-plugin-jsdoc": "^50.5.0",
+    "eslint-plugin-promise": "^7.1.0",
+    "globals": "^15.12.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.4"
+  }
+}

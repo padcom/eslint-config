@@ -1,14 +1,7 @@
 {
-  "name": "eslint-config",
   "workspaces": [
-    "packages/base",
-    "packages/typescript",
-    "packages/vue"
-  ],
-  "scripts": {
-    "test": "npm test --if-exists --workspaces",
-    "publish:base": "npm --workspace=packages/base publish",
-    "publish:typescript": "npm --workspace=packages/typescript publish",
-    "publish:vue": "npm --workspace=packages/vue publish"
-  }
+    "./eslint-config-javascript",
+    "./eslint-config-typescript",
+    "./eslint-config-vue"
+  ]
 }
