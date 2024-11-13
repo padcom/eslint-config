@@ -3,7 +3,7 @@ import vueTypescriptEslintConfig from '@vue/eslint-config-typescript'
 
 /** @type {import('eslint').Linter.Config[]} */
 export const vue = [
-  ...vueEslintPlugin.configs['flat/essential'],
+  ...vueEslintPlugin.configs['flat/recommended'],
   ...vueTypescriptEslintConfig({ extends: ['recommendedTypeChecked'] }),
   {
     name: 'padcom/flat/vue',
