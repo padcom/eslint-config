@@ -1,5 +1,5 @@
 <template>
-  <div class="example" :class="{ enabled }">
+  <div key="123" class="example" :class="{ enabled }">
     {{ message }}
   </div>
 </template>

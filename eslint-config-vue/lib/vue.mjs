@@ -1,10 +1,8 @@
-import vueEslintPlugin from 'eslint-plugin-vue'
-import vueTypescriptEslintConfig from '@vue/eslint-config-typescript'
+import { defineConfigWithVueTs, vueTsConfigs } from '@vue/eslint-config-typescript'
 
 /** @type {import('eslint').Linter.Config[]} */
 export const vue = [
-  ...vueEslintPlugin.configs['flat/recommended'],
-  ...vueTypescriptEslintConfig({ extends: ['recommendedTypeChecked'] }),
+  ...defineConfigWithVueTs(vueTsConfigs.recommended),
   {
     name: 'padcom/flat/vue',
     files: ['**/*.ts', '**/*.tsx', '**/*.mts', '**/*.vue'],
