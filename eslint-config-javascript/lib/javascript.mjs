@@ -20,7 +20,6 @@ export const javascript = [
       'eqeqeq': ['error', 'always', {
         null: 'ignore',
       }],
-      'func-call-spacing': 'error',
       'func-style': ['error', 'declaration', {
         allowArrowFunctions: true,
       }],
