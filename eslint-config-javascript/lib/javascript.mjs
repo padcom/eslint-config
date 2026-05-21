@@ -4,6 +4,13 @@ import stylisticEslintPlugin from '@stylistic/eslint-plugin'
 /** @type {import('eslint').Linter.Config[]} */
 export const javascript = [
   {
+    ignores: [
+      '**/dist/*',
+      '**/node_modules/*',
+      'tsconfig.json',
+    ],
+  },
+  {
     ...js.configs.recommended,
     name: 'eslint/js/recommended',
   },
