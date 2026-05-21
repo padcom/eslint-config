@@ -20,6 +20,7 @@ export const javascript = [
       'eqeqeq': ['error', 'always', {
         null: 'ignore',
       }],
+      'func-call-spacing': 'error',
       'func-style': ['error', 'declaration', {
         allowArrowFunctions: true,
       }],
@@ -133,7 +134,6 @@ export const javascript = [
       '@stylistic/computed-property-spacing': 'error',
       '@stylistic/dot-location': ['error', 'property'],
       '@stylistic/eol-last': 'error',
-      '@stylistic/func-call-spacing': 'error',
       '@stylistic/function-call-argument-newline': ['error', 'consistent'],
       '@stylistic/function-call-spacing': ['error', 'never'],
       '@stylistic/function-paren-newline': ['error', 'consistent'],
@@ -188,7 +188,7 @@ export const javascript = [
         { blankLine: 'any', prev: 'import', next: 'import' },
       ],
       '@stylistic/quotes': ['error', 'single', {
-        allowTemplateLiterals: true,
+        allowTemplateLiterals: 'always',
         avoidEscape: true,
       }],
       '@stylistic/rest-spread-spacing': 'error',
