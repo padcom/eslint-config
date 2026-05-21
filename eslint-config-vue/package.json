@@ -28,6 +28,7 @@
     "@padcom/eslint-config-javascript": "*",
     "@padcom/eslint-config-typescript": "*",
     "@vue/eslint-config-typescript": "^14",
+    "@vue/language-core": "^3",
     "eslint-plugin-vue": "^10"
   },
   "devDependencies": {
